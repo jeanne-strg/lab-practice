@@ -25,6 +25,14 @@ public class calcu {
         return a / b;
     }
     
+    // Modulus method
+    public static int modulus(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Modulus by zero is not allowed.");
+        }
+        return a % b;
+    }
+
 }
 
 
